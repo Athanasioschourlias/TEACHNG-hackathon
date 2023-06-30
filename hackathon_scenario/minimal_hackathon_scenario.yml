@@ -27,14 +27,14 @@ services:
         read_only: true
         # consistency: cached
 
-  or_module:
+  tsd_module:
     image: "chronis10/teaching-ai-toolkit:${ARCH:-amd64}"
-    container_name: or_module
+    container_name: tsd_module
     depends_on:
       - rabbitmq
     restart: on-failure
     env_file:
-      - env/or_module.env
+      - env/tsd_module.env
       - env/comm/rabbitmq_client.env
     volumes:
       - /home/teaching/Desktop/TEACHNG-hackathon/modules:/app/modules
