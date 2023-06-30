@@ -6,7 +6,7 @@ from base.node import TEACHINGNode
 from .base_module import LearningModule
 
 
-class ORModule(LearningModule):
+class TSDModule(LearningModule):
 
     def __init__(self):
 
