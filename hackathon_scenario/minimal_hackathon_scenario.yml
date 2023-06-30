@@ -28,7 +28,7 @@ services:
         # consistency: cached
 
   tsd_module:
-    image: "chronis10/teaching-ai-toolkit:${ARCH:-amd64}"
+    build: Dockerfile
     container_name: tsd_module
     depends_on:
       - rabbitmq
