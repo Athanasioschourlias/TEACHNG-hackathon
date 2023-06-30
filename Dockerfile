@@ -1,5 +1,5 @@
 FROM chronis10/teaching-ai-toolkit:arm64
 
+COPY requirements.txt /app/requirements.txt
 
-
-CMD ["python3", "main.py"]
+RUN pip install -r /app/requirements.txt
