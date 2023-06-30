@@ -1,12 +1,8 @@
 from tensorflow import keras
-from tensorflow.keras.applications.mobilenet_v2 import preprocess_input, decode_predictions
-import numpy as np
 
 from base.node import TEACHINGNode
 from .base_module import LearningModule
 
-
-import cv2
 import numpy as np
 from keras.applications.vgg16 import preprocess_input, decode_predictions
 from keras.applications.vgg16 import VGG16
