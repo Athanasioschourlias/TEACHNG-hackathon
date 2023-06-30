@@ -37,4 +37,4 @@ services:
       - env/or_module.env
       - env/comm/rabbitmq_client.env
     volumes:
-      - /Users/thanoschourlias/Desktop/teaching-ai-toolkit/modules:/app/modules
+      - ../../modules:/app/modules
