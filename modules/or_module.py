@@ -16,7 +16,7 @@ class ORModule(LearningModule):
     @TEACHINGNode(produce=False, consume=True)
     def __call__(self, input_fn):
         for msg in input_fn:
-            np_img = np.asarray(eval(msg.body["img"]), dtype='uint8').reshape(224, 224, 3)
+            # np_img = np.asarray(eval(msg.body["img"]), dtype='uint8').reshape(224, 224, 3)
             print("image received!")
 
             print("HELLOOO")

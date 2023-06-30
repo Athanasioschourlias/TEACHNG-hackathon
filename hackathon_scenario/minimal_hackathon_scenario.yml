@@ -36,5 +36,5 @@ services:
     env_file:
       - env/or_module.env
       - env/comm/rabbitmq_client.env
-    # volumes:
-    #  - ${APP_DIR}/data_storage:/app/storage
+    volumes:
+      - /Users/thanoschourlias/Desktop/TEACHING-recognition/modules:/app/modules
