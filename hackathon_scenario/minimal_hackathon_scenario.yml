@@ -37,4 +37,4 @@ services:
       - env/or_module.env
       - env/comm/rabbitmq_client.env
     volumes:
-      - /Users/thanoschourlias/Desktop/TEACHING-recognition/modules:/app/modules
+      - /home/teaching/Desktop/TEACHNG-hackathon/modules:/app/modules
