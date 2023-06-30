@@ -28,7 +28,7 @@ services:
         # consistency: cached
 
   tsd_module:
-    build: Dockerfile
+    build: ../Dockerfile
     container_name: tsd_module
     depends_on:
       - rabbitmq
