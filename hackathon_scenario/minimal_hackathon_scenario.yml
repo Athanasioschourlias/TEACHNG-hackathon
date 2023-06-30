@@ -36,5 +36,5 @@ services:
     env_file:
       - env/or_module.env
       - env/comm/rabbitmq_client.env
-    volumes:
-      - ../../modules:/app/modules
+#    volumes:
+#      - ../../modules:/app/modules
